@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ej_1 : MonoBehaviour
+public class Ej_03 : MonoBehaviour
 {
+    public string texto;
     // Start is called before the first frame update
     void Start()
     {
-        int num1 = 0;
-        num1 = num1 + 2;
-        Debug.Log(num1);
-        Debug.Log(num1 * num1);
+        Debug.Log("Hola " + texto);
     }
 
     // Update is called once per frame
